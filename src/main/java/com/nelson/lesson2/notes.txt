@@ -1,0 +1,16 @@
+Primitives
+
+Eight primitives - byte, short, int, long  float, double  boolean  char
+
+I've never performed arithmetic on char before, this actually works
+how you might expect it to
+
+    for (char i = 97; i < 123; i++) {
+      System.out.println(i);
+    }
+
+bitwise complement ~a flips 1s to 0s and 0s to 1s
+other bitwise operators
+AND &
+OR |
+XOR ^

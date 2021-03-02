@@ -1,4 +1,4 @@
-package com.nelson;
+package com.nelson.lesson1;
 
 public class HelloWorld {
 
