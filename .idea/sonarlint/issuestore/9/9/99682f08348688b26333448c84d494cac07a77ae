@@ -1,0 +1,15 @@
+
+h	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(îœÀ•8ÃÅÅ¦ÿ.
+R
+java:S1854	"5Remove this useless assignment to local variable "d".(‰ÈæÂ8íÓÉ…ÿ.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(ï¨æ§8ß—Æ¦ÿ.
+R
+java:S1854"5Remove this useless assignment to local variable "c".(ä¡¢8òÙÈ…ÿ.
+C
+java:S1481"&Remove this unused "c" local variable.(ä¡¢8òÙÈ…ÿ.
+m	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(û”ÿÖÿÿÿÿÿ8ÃÅÅ¦ÿ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ú“Üİ8íò…ÿ.
+C
+java:S1481	"&Remove this unused "d" local variable.(‰ÈæÂ8íÓÉ…ÿ.
+<
+java:S1659"Declare "b" on a separate line.(¤˜ĞÚ8òÙÈ…ÿ.

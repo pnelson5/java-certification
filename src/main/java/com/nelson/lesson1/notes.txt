@@ -1,7 +1,13 @@
 Of the originals, these are the ones I am not familiar with -
+
 transient, native, synchronized and volatile.
+-
+
+
+
 I would add 'final' to that list, because while I have a general understanding,
 I feel like there is nuance there that I don't entirely understand.
+
 
 Strictfp - no idea here, never heard of this before
 

@@ -1,0 +1,15 @@
+String init involves string internment which stores a single copy in the String Pool
+
+StringBuilder stuff was a good refresher, don't really do that much string manipulation
+
+Wrapper classes for primitives -
+
+BigDecimal
+
+java.time - LocalDate LocalTime LocalDateTime
+ZonedDate
+
+Locale ResourceBundles - I get the sense that we're doing things wrong in this space and could
+really learn something here.
+  Idea: a toy application that returned different text based on locale of request
+

@@ -12,5 +12,23 @@ public class Declarations {
       char o = (char) (i - 40);
       System.out.println(o);
     }
+
+    char status = 'N';
+    double price = 10;
+    switch (status) {
+      case 'S':
+        price += 1;
+      case 'N':
+        price += 2;
+      case 'D':
+        price += 4;
+        break;
+      case 'F':
+        price = 0;
+        break;
+      default:
+        price = 100;
+    }
+    System.out.println(price);
   }
 }

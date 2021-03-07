@@ -14,3 +14,8 @@ other bitwise operators
 AND &
 OR |
 XOR ^
+
+Have you ever used exclusive or a=1 ^ b=2  ? nope
+
+I don't use switch statements, is there a best practice aroudn this? Its always smelled to me,
+but hard to describe why.
