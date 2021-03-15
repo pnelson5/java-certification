@@ -17,3 +17,17 @@ d
 4src/main/java/com/nelson/lesson3/messages.properties,e/b/ebbc7509bb26b25ec9eb5853112c52306560abf2
 k
 ;src/main/java/com/nelson/lesson3/DateTimeLocaleScratch.java,e/a/ea5d98c140cb756de8e7ace6e598bc63f8be3394
+_
+/src/main/java/com/nelson/lesson4/Variables.java,9/f/9fe5326b3eba05dad882b45d0396177b49e69dbe
+]
+-src/main/java/com/nelson/lesson4/Product.java,b/a/ba29dd37954965cdfec7f9bfce2d8675efb0a938
+Z
+*src/main/java/com/nelson/lesson4/Shop.java,9/8/98c38563ca98519be033ff9342d1e986e38720b8
+\
+,src/main/java/com/nelson/lesson5/Rating.java,6/e/6e562cbfbfa79b1b31b6c23196fabb4a244db1d8
+Z
+*src/main/java/com/nelson/lesson5/notes.txt,9/7/977de88ff35ccf57aff05a20ad3ced6233402e2b
+Z
+*src/main/java/com/nelson/lesson4/notes.txt,3/e/3e3bb4f26c26e1eb782128704fbae2e29242dbf3
+_
+/src/main/java/com/nelson/lesson5/StaticGuy.java,e/3/e30ae1bde5af11007a46221072d18af866f0c181

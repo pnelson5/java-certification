@@ -1,0 +1,16 @@
+final keyword -
+  used for declaring constants
+    private final String CONSTANT = "this wont change";
+  used for arguments you don't want to accidentally alter
+    public String getDiscountedPrice(final BigDecimal discount)...
+    ^ prevents accidentally reassigning discount
+
+
+static keyword
+  referred to as "class" methods or "class" variables, because
+  static variables and methods are shared by all instances of that class type
+
+  within a static method, "this" is meaningless because "this" is ambiguous
+
+More static
+  factory methods - static method that creates and returns a new instance for you.

@@ -1,0 +1,22 @@
+Inheritance
+
+subclass superclass
+
+everything extends Object, even if you don't see the extends it's there
+Object provides toString hashCode wait etc
+
+Polymorphism
+  access modifiers can be widened but not narrowed, i.e. parent promises public access, child cannot
+  narrow that to private
+
+  @Override is optional, basically just checks that you typed it right
+
+Abstract classes and methods
+Final classes are the opposite of abtract, they can't be extended
+
+Hashing
+  Objects.hash()
+  MessageDigest for secure hash
+
+Factory Method Pattern
+

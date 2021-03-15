@@ -1,0 +1,30 @@
+Improved Class Design
+
+Immutability - immutable objects avoid the overhead of synchronized access, they are "thread safe"
+
+Instance initializer - no idea this existed
+  pre-constructor execution
+
+Enum -
+  enumerated set values are implicitly public static final
+  AND they're actually INSTANCES of the enum type!
+
+Java Memory
+  Stack and Heap
+    stack is memory in context of a thread
+    heap is global memory pool, any thread can access
+  The value vs reference passing as params was enlightening, especially wrt wrapper classes and
+    primitives
+
+Enum values are implicitly protected.
+  they are implicitly public static final
+
+It cannot be used in switch constructs.
+
+It provides a fixed set of instances of a specific type.
+
+Enum cannot be used as a variable type
+
+Enum values are instances of this enum type.
+
+It cannot be used as a variable value.
