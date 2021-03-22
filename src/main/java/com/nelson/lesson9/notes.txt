@@ -1,0 +1,13 @@
+Collections
+
+Deque (pronounced deck) double-ended queue
+
+ArrayList default xtor allocates 10 element capacity
+
+List<Product>  interface, had an aha moment with how lists use generics to allocate heap mem
+  and the reason behind why you can't use primitive in list, i think i've always just done it
+  in a cargo cult kind of way, now i think i understand
+
+ImmutableCollection
+
+Deque return special values -

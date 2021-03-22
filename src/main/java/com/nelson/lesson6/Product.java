@@ -1,5 +1,6 @@
 package com.nelson.lesson6;
 
+import com.nelson.lesson7.Rateable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;
@@ -7,28 +8,27 @@ import java.util.Objects;
 /*
 this will be the parent class which Food and Drink inherit from
  */
-public abstract class Product {
+public abstract class Product implements Rateable<Product> {
 
   public static final BigDecimal DISCOUNT_RATE = BigDecimal.valueOf(0.1);
   protected int id;
 
   protected String name;
-
   protected BigDecimal price;
   protected Rating rating;
 
-  public Product() {
+  Product() {
     this(0, null, BigDecimal.ZERO);
   }
 
-  public Product(int id, String name, BigDecimal price, Rating rating) {
+  Product(int id, String name, BigDecimal price, Rating rating) {
     this.id = id;
     this.name = name;
     this.price = price;
     this.rating = rating;
   }
 
-  public Product(int id, String name, BigDecimal price) {
+  Product(int id, String name, BigDecimal price) {
     this(id, name, price, Rating.NOT_RATED);
   }
 
@@ -68,8 +68,6 @@ public abstract class Product {
     return price.multiply(DISCOUNT_RATE).setScale(2, RoundingMode.HALF_UP);
   }
 
-  public abstract Product applyRating(Rating newRating);
-
   @Override
   public String toString() {
     return "Product{"
@@ -96,11 +94,11 @@ public abstract class Product {
       return false;
     }
     Product product = (Product) o;
-    return id == product.id && Objects.equals(name, product.name);
+    return id == product.id;
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, name);
+    return Objects.hash(id);
   }
 }

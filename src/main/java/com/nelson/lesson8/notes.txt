@@ -1,0 +1,26 @@
+Arrays and Loops
+
+Declaration and initialization options
+  int[] primes = new int[3];  // declare an int array of size 3
+
+  int[] primes;
+  primes = new int[]{1,3,3};  // declare then init to size 3 populated with values
+
+  int[] primes = new int[]{1,2,3};  //combined declaration and init
+
+
+  While you can't resize an array you can copy an array
+  Arrays.copyOf(a1, 5);
+
+  java.util.Arrays -
+    fill
+    binarySearch
+    sort
+
+Loops
+  for, while, foreach
+
+  break and continue
+  loop labels!  who knew?!
+
+

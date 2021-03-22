@@ -1,0 +1,10 @@
+Interfaces
+
+interface if not specified, by default public abstract
+
+Generics
+ introduced in java se 5
+
+Comparable interface
+
+Comparator interfacea

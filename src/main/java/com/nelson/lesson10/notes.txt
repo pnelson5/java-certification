@@ -1,0 +1,31 @@
+Nested classes and Lambdas
+
+Static nested -
+  any nested class can access outer class elements, even if they're private
+
+Member nested -
+  similar to static nested, w/o static keyword
+  forces the user to create instances of the outer before inner, think things
+  that cannot exist without the outer  Order to OrderItem
+
+Local Inner -
+  Only used in context of a method, very rarely used
+
+Anonymous Inner -
+  Most common inner class in java
+
+Lambda Expressions
+
+  Very similar to anonymous inner class idea.
+  The compiler can know what you intend to do with an anon inner and instead use a lambda
+  to abbreviate that code.  e.g. Comparator only has one abstract method so it knows what you're
+  passing and returning and so can interpret a lambda
+
+  Method Referencing
+  This is why the String::compareToIgnoreCase  style works
+
+  Predicate interface
+    and
+    or
+    negate
+
