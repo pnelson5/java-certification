@@ -1,0 +1,16 @@
+Streams -
+  Immutable flow of elements
+  Operation categories: Intermediate, Terminal and Short-circuit
+  Basic function purposes:
+    Predicate (like where clauses)
+    Function convert types
+    UnaryOperator converts values
+    Consumer processes elements
+    Part 1 @ 16:00 for chart that shows all the categories
+
+  Functional Interfaces - single overridable abstract method
+    Predicate<T> defines boolean test method
+    Function<T,R> apply converts one type to another
+    UnaryOperator<T> apply converts value
+    Consumer<T> defines accept
+    Supplier<T> defines get
